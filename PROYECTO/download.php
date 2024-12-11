@@ -8,7 +8,7 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
 
 // Database connection
 $host = "172.16.4.150";
-$user = "user";
+$user = "usuario";
 $password = "123456789";
 $db = "COCHES";
 
