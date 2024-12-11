@@ -1,0 +1,52 @@
+
+table th, table td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+table th {
+    background-color: #9b59b6;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.table-wrapper {
+    overflow-y: auto; /* Muestra la barra de desplazamiento solo si es necesario */
+    max-height: 400px; /* Limita la altura máxima del contenedor de la tabla */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Hace que las celdas tengan un ancho fijo */
+}
+
+table th, table td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Para evitar que el contenido largo se corte */
+}
+
+.table-wrapper {
+    max-height: 400px;  /* Limita la altura del contenedor para las tablas grandes */
+    overflow-y: auto;   /* Desplazamiento vertical */
+    overflow-x: auto;   /* Desplazamiento horizontal */
+    width: 100%;
+    margin-bottom: 20px; /* Añadir espacio al final de la tabla */
+}

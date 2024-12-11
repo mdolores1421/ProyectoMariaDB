@@ -1,0 +1,86 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+
+/* Estilos del encabezado */
+header {
+    background-color: #9b59b6; /* Morado claro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #9b59b6; /* Morado claro */
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor para los botones centrados */
+.center-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Estilo de los enlaces de los botones */
+.center-content a {
+    min-width: 150px; /* Asegura que los botones no se encojan demasiado */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #8e44ad; /* Morado más oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo cuando el botón es hover */
+.btn:hover {
+    background-color: #732d91; /* Morado más oscuro al pasar el cursor */
+}
+
+/* Estilo para el botón de "Entrar" */
+#btnB {
+    background-color: #8e44ad; /* Morado más oscuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+    transition: background-color 0.3s ease;
+}
+#vuelta {
+    background-color: #732d91;
+}
